@@ -1,0 +1,2991 @@
+[
+  {
+    "routeId": "01A",
+    "busRegNo": "NA-3947",
+    "departureTime": 240,
+    "arrivalTime": 365,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NB-4821",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NC-5032",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "ND-1256",
+    "departureTime": 720,
+    "arrivalTime": 845,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NE-8790",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NF-3031",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "ND-1256",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NE-8790",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NF-3031",
+    "departureTime": 450,
+    "arrivalTime": 575,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NA-3947",
+    "departureTime": 870,
+    "arrivalTime": 995,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NB-4821",
+    "departureTime": 960,
+    "arrivalTime": 1085,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NC-5032",
+    "departureTime": 1080,
+    "arrivalTime": 1205,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NA-6677",
+    "departureTime": 270,
+    "arrivalTime": 395,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NB-2245",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NC-9988",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "ND-7733",
+    "departureTime": 750,
+    "arrivalTime": 875,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NE-5566",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NG-3233",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "ND-7733",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NE-5566",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NG-3233",
+    "departureTime": 420,
+    "arrivalTime": 545,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NA-6677",
+    "departureTime": 780,
+    "arrivalTime": 905,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NB-2245",
+    "departureTime": 930,
+    "arrivalTime": 1055,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NC-9988",
+    "departureTime": 1050,
+    "arrivalTime": 1175,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-1122",
+    "departureTime": 300,
+    "arrivalTime": 420,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NB-3344",
+    "departureTime": 360,
+    "arrivalTime": 480,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NC-5567",
+    "departureTime": 420,
+    "arrivalTime": 540,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "ND-7788",
+    "departureTime": 780,
+    "arrivalTime": 900,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NE-9900",
+    "departureTime": 900,
+    "arrivalTime": 1020,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-3435",
+    "departureTime": 1020,
+    "arrivalTime": 1140,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "ND-7788",
+    "departureTime": 330,
+    "arrivalTime": 450,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NE-9900",
+    "departureTime": 390,
+    "arrivalTime": 510,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-3435",
+    "departureTime": 450,
+    "arrivalTime": 570,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-1122",
+    "departureTime": 810,
+    "arrivalTime": 930,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NB-3344",
+    "departureTime": 930,
+    "arrivalTime": 1050,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NC-5567",
+    "departureTime": 1050,
+    "arrivalTime": 1170,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NA-1011",
+    "departureTime": 240,
+    "arrivalTime": 480,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-1213",
+    "departureTime": 360,
+    "arrivalTime": 600,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NC-1415",
+    "departureTime": 480,
+    "arrivalTime": 720,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "ND-1617",
+    "departureTime": 960,
+    "arrivalTime": 1200,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NE-1819",
+    "departureTime": 1080,
+    "arrivalTime": 1320,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-3637",
+    "departureTime": 1200,
+    "arrivalTime": 0,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "ND-1617",
+    "departureTime": 270,
+    "arrivalTime": 510,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NE-1819",
+    "departureTime": 390,
+    "arrivalTime": 630,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-3637",
+    "departureTime": 510,
+    "arrivalTime": 750,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NA-1011",
+    "departureTime": 990,
+    "arrivalTime": 1230,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-1213",
+    "departureTime": 1170,
+    "arrivalTime": 1410,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NC-1415",
+    "departureTime": 1290,
+    "arrivalTime": 90,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 300,
+    "arrivalTime": 480,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NB-2223",
+    "departureTime": 390,
+    "arrivalTime": 570,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-2425",
+    "departureTime": 480,
+    "arrivalTime": 660,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "ND-2627",
+    "departureTime": 900,
+    "arrivalTime": 1080,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NE-2829",
+    "departureTime": 1020,
+    "arrivalTime": 1200,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-3839",
+    "departureTime": 1140,
+    "arrivalTime": 1320,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 1260,
+    "arrivalTime": 0,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "ND-2627",
+    "departureTime": 360,
+    "arrivalTime": 540,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NE-2829",
+    "departureTime": 450,
+    "arrivalTime": 630,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-3839",
+    "departureTime": 540,
+    "arrivalTime": 720,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NA-2021",
+    "departureTime": 960,
+    "arrivalTime": 1140,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NB-2223",
+    "departureTime": 1080,
+    "arrivalTime": 1260,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-2425",
+    "departureTime": 1200,
+    "arrivalTime": 1380,
+    "date": "2025-09-28"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NA-3947",
+    "departureTime": 240,
+    "arrivalTime": 365,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NB-4821",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NC-5032",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "ND-1256",
+    "departureTime": 720,
+    "arrivalTime": 845,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NE-8790",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NF-3031",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "ND-1256",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NE-8790",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NF-3031",
+    "departureTime": 450,
+    "arrivalTime": 575,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NA-3947",
+    "departureTime": 870,
+    "arrivalTime": 995,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NB-4821",
+    "departureTime": 960,
+    "arrivalTime": 1085,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NC-5032",
+    "departureTime": 1080,
+    "arrivalTime": 1205,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NA-6677",
+    "departureTime": 270,
+    "arrivalTime": 395,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NB-2245",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NC-9988",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "ND-7733",
+    "departureTime": 750,
+    "arrivalTime": 875,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NE-5566",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NG-3233",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "ND-7733",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NE-5566",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NG-3233",
+    "departureTime": 420,
+    "arrivalTime": 545,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NA-6677",
+    "departureTime": 780,
+    "arrivalTime": 905,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NB-2245",
+    "departureTime": 930,
+    "arrivalTime": 1055,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NC-9988",
+    "departureTime": 1050,
+    "arrivalTime": 1175,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-1122",
+    "departureTime": 300,
+    "arrivalTime": 420,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NB-3344",
+    "departureTime": 360,
+    "arrivalTime": 480,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NC-5567",
+    "departureTime": 420,
+    "arrivalTime": 540,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "ND-7788",
+    "departureTime": 780,
+    "arrivalTime": 900,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NE-9900",
+    "departureTime": 900,
+    "arrivalTime": 1020,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-3435",
+    "departureTime": 1020,
+    "arrivalTime": 1140,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "ND-7788",
+    "departureTime": 330,
+    "arrivalTime": 450,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NE-9900",
+    "departureTime": 390,
+    "arrivalTime": 510,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-3435",
+    "departureTime": 450,
+    "arrivalTime": 570,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-1122",
+    "departureTime": 810,
+    "arrivalTime": 930,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NB-3344",
+    "departureTime": 930,
+    "arrivalTime": 1050,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NC-5567",
+    "departureTime": 1050,
+    "arrivalTime": 1170,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NA-1011",
+    "departureTime": 240,
+    "arrivalTime": 480,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-1213",
+    "departureTime": 360,
+    "arrivalTime": 600,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NC-1415",
+    "departureTime": 480,
+    "arrivalTime": 720,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "ND-1617",
+    "departureTime": 960,
+    "arrivalTime": 1200,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NE-1819",
+    "departureTime": 1080,
+    "arrivalTime": 1320,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-3637",
+    "departureTime": 1200,
+    "arrivalTime": 0,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "ND-1617",
+    "departureTime": 270,
+    "arrivalTime": 510,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NE-1819",
+    "departureTime": 390,
+    "arrivalTime": 630,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-3637",
+    "departureTime": 510,
+    "arrivalTime": 750,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NA-1011",
+    "departureTime": 990,
+    "arrivalTime": 1230,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-1213",
+    "departureTime": 1170,
+    "arrivalTime": 1410,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NC-1415",
+    "departureTime": 1290,
+    "arrivalTime": 90,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 300,
+    "arrivalTime": 480,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NB-2223",
+    "departureTime": 390,
+    "arrivalTime": 570,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-2425",
+    "departureTime": 480,
+    "arrivalTime": 660,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "ND-2627",
+    "departureTime": 900,
+    "arrivalTime": 1080,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NE-2829",
+    "departureTime": 1020,
+    "arrivalTime": 1200,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-3839",
+    "departureTime": 1140,
+    "arrivalTime": 1320,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 1260,
+    "arrivalTime": 0,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "ND-2627",
+    "departureTime": 360,
+    "arrivalTime": 540,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NE-2829",
+    "departureTime": 450,
+    "arrivalTime": 630,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-3839",
+    "departureTime": 540,
+    "arrivalTime": 720,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NA-2021",
+    "departureTime": 960,
+    "arrivalTime": 1140,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NB-2223",
+    "departureTime": 1080,
+    "arrivalTime": 1260,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-2425",
+    "departureTime": 1200,
+    "arrivalTime": 1380,
+    "date": "2025-09-29"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NA-3947",
+    "departureTime": 240,
+    "arrivalTime": 365,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NB-4821",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NC-5032",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "ND-1256",
+    "departureTime": 720,
+    "arrivalTime": 845,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NE-8790",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NF-3031",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "ND-1256",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NE-8790",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NF-3031",
+    "departureTime": 450,
+    "arrivalTime": 575,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NA-3947",
+    "departureTime": 870,
+    "arrivalTime": 995,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NB-4821",
+    "departureTime": 960,
+    "arrivalTime": 1085,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NC-5032",
+    "departureTime": 1080,
+    "arrivalTime": 1205,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NA-6677",
+    "departureTime": 270,
+    "arrivalTime": 395,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NB-2245",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NC-9988",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "ND-7733",
+    "departureTime": 750,
+    "arrivalTime": 875,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NE-5566",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NG-3233",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "ND-7733",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NE-5566",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NG-3233",
+    "departureTime": 420,
+    "arrivalTime": 545,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NA-6677",
+    "departureTime": 780,
+    "arrivalTime": 905,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NB-2245",
+    "departureTime": 930,
+    "arrivalTime": 1055,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NC-9988",
+    "departureTime": 1050,
+    "arrivalTime": 1175,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-1122",
+    "departureTime": 300,
+    "arrivalTime": 420,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NB-3344",
+    "departureTime": 360,
+    "arrivalTime": 480,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NC-5567",
+    "departureTime": 420,
+    "arrivalTime": 540,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "ND-7788",
+    "departureTime": 780,
+    "arrivalTime": 900,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NE-9900",
+    "departureTime": 900,
+    "arrivalTime": 1020,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-3435",
+    "departureTime": 1020,
+    "arrivalTime": 1140,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "ND-7788",
+    "departureTime": 330,
+    "arrivalTime": 450,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NE-9900",
+    "departureTime": 390,
+    "arrivalTime": 510,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-3435",
+    "departureTime": 450,
+    "arrivalTime": 570,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-1122",
+    "departureTime": 810,
+    "arrivalTime": 930,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NB-3344",
+    "departureTime": 930,
+    "arrivalTime": 1050,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NC-5567",
+    "departureTime": 1050,
+    "arrivalTime": 1170,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NA-1011",
+    "departureTime": 240,
+    "arrivalTime": 480,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-1213",
+    "departureTime": 360,
+    "arrivalTime": 600,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NC-1415",
+    "departureTime": 480,
+    "arrivalTime": 720,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "ND-1617",
+    "departureTime": 960,
+    "arrivalTime": 1200,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NE-1819",
+    "departureTime": 1080,
+    "arrivalTime": 1320,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-3637",
+    "departureTime": 1200,
+    "arrivalTime": 0,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "ND-1617",
+    "departureTime": 270,
+    "arrivalTime": 510,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NE-1819",
+    "departureTime": 390,
+    "arrivalTime": 630,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-3637",
+    "departureTime": 510,
+    "arrivalTime": 750,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NA-1011",
+    "departureTime": 990,
+    "arrivalTime": 1230,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-1213",
+    "departureTime": 1170,
+    "arrivalTime": 1410,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NC-1415",
+    "departureTime": 1290,
+    "arrivalTime": 90,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 300,
+    "arrivalTime": 480,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NB-2223",
+    "departureTime": 390,
+    "arrivalTime": 570,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-2425",
+    "departureTime": 480,
+    "arrivalTime": 660,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "ND-2627",
+    "departureTime": 900,
+    "arrivalTime": 1080,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NE-2829",
+    "departureTime": 1020,
+    "arrivalTime": 1200,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-3839",
+    "departureTime": 1140,
+    "arrivalTime": 1320,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 1260,
+    "arrivalTime": 0,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "ND-2627",
+    "departureTime": 360,
+    "arrivalTime": 540,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NE-2829",
+    "departureTime": 450,
+    "arrivalTime": 630,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-3839",
+    "departureTime": 540,
+    "arrivalTime": 720,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NA-2021",
+    "departureTime": 960,
+    "arrivalTime": 1140,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NB-2223",
+    "departureTime": 1080,
+    "arrivalTime": 1260,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-2425",
+    "departureTime": 1200,
+    "arrivalTime": 1380,
+    "date": "2025-09-30"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NA-3947",
+    "departureTime": 240,
+    "arrivalTime": 365,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NB-4821",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NC-5032",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "ND-1256",
+    "departureTime": 720,
+    "arrivalTime": 845,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NE-8790",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NF-3031",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "ND-1256",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NE-8790",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NF-3031",
+    "departureTime": 450,
+    "arrivalTime": 575,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NA-3947",
+    "departureTime": 870,
+    "arrivalTime": 995,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NB-4821",
+    "departureTime": 960,
+    "arrivalTime": 1085,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NC-5032",
+    "departureTime": 1080,
+    "arrivalTime": 1205,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NA-6677",
+    "departureTime": 270,
+    "arrivalTime": 395,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NB-2245",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NC-9988",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "ND-7733",
+    "departureTime": 750,
+    "arrivalTime": 875,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NE-5566",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NG-3233",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "ND-7733",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NE-5566",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NG-3233",
+    "departureTime": 420,
+    "arrivalTime": 545,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NA-6677",
+    "departureTime": 780,
+    "arrivalTime": 905,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NB-2245",
+    "departureTime": 930,
+    "arrivalTime": 1055,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NC-9988",
+    "departureTime": 1050,
+    "arrivalTime": 1175,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-1122",
+    "departureTime": 300,
+    "arrivalTime": 420,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NB-3344",
+    "departureTime": 360,
+    "arrivalTime": 480,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NC-5567",
+    "departureTime": 420,
+    "arrivalTime": 540,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "ND-7788",
+    "departureTime": 780,
+    "arrivalTime": 900,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NE-9900",
+    "departureTime": 900,
+    "arrivalTime": 1020,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-3435",
+    "departureTime": 1020,
+    "arrivalTime": 1140,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "ND-7788",
+    "departureTime": 330,
+    "arrivalTime": 450,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NE-9900",
+    "departureTime": 390,
+    "arrivalTime": 510,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-3435",
+    "departureTime": 450,
+    "arrivalTime": 570,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-1122",
+    "departureTime": 810,
+    "arrivalTime": 930,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NB-3344",
+    "departureTime": 930,
+    "arrivalTime": 1050,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NC-5567",
+    "departureTime": 1050,
+    "arrivalTime": 1170,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NA-1011",
+    "departureTime": 240,
+    "arrivalTime": 480,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-1213",
+    "departureTime": 360,
+    "arrivalTime": 600,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NC-1415",
+    "departureTime": 480,
+    "arrivalTime": 720,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "ND-1617",
+    "departureTime": 960,
+    "arrivalTime": 1200,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NE-1819",
+    "departureTime": 1080,
+    "arrivalTime": 1320,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-3637",
+    "departureTime": 1200,
+    "arrivalTime": 0,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "ND-1617",
+    "departureTime": 270,
+    "arrivalTime": 510,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NE-1819",
+    "departureTime": 390,
+    "arrivalTime": 630,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-3637",
+    "departureTime": 510,
+    "arrivalTime": 750,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NA-1011",
+    "departureTime": 990,
+    "arrivalTime": 1230,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-1213",
+    "departureTime": 1170,
+    "arrivalTime": 1410,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NC-1415",
+    "departureTime": 1290,
+    "arrivalTime": 90,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 300,
+    "arrivalTime": 480,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NB-2223",
+    "departureTime": 390,
+    "arrivalTime": 570,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-2425",
+    "departureTime": 480,
+    "arrivalTime": 660,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "ND-2627",
+    "departureTime": 900,
+    "arrivalTime": 1080,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NE-2829",
+    "departureTime": 1020,
+    "arrivalTime": 1200,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-3839",
+    "departureTime": 1140,
+    "arrivalTime": 1320,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 1260,
+    "arrivalTime": 0,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "ND-2627",
+    "departureTime": 360,
+    "arrivalTime": 540,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NE-2829",
+    "departureTime": 450,
+    "arrivalTime": 630,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-3839",
+    "departureTime": 540,
+    "arrivalTime": 720,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NA-2021",
+    "departureTime": 960,
+    "arrivalTime": 1140,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NB-2223",
+    "departureTime": 1080,
+    "arrivalTime": 1260,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-2425",
+    "departureTime": 1200,
+    "arrivalTime": 1380,
+    "date": "2025-10-01"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NA-3947",
+    "departureTime": 240,
+    "arrivalTime": 365,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NB-4821",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NC-5032",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "ND-1256",
+    "departureTime": 720,
+    "arrivalTime": 845,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NE-8790",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NF-3031",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "ND-1256",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NE-8790",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NF-3031",
+    "departureTime": 450,
+    "arrivalTime": 575,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NA-3947",
+    "departureTime": 870,
+    "arrivalTime": 995,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NB-4821",
+    "departureTime": 960,
+    "arrivalTime": 1085,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NC-5032",
+    "departureTime": 1080,
+    "arrivalTime": 1205,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NA-6677",
+    "departureTime": 270,
+    "arrivalTime": 395,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NB-2245",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NC-9988",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "ND-7733",
+    "departureTime": 750,
+    "arrivalTime": 875,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NE-5566",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NG-3233",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "ND-7733",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NE-5566",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NG-3233",
+    "departureTime": 420,
+    "arrivalTime": 545,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NA-6677",
+    "departureTime": 780,
+    "arrivalTime": 905,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NB-2245",
+    "departureTime": 930,
+    "arrivalTime": 1055,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NC-9988",
+    "departureTime": 1050,
+    "arrivalTime": 1175,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-1122",
+    "departureTime": 300,
+    "arrivalTime": 420,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NB-3344",
+    "departureTime": 360,
+    "arrivalTime": 480,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NC-5567",
+    "departureTime": 420,
+    "arrivalTime": 540,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "ND-7788",
+    "departureTime": 780,
+    "arrivalTime": 900,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NE-9900",
+    "departureTime": 900,
+    "arrivalTime": 1020,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-3435",
+    "departureTime": 1020,
+    "arrivalTime": 1140,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "ND-7788",
+    "departureTime": 330,
+    "arrivalTime": 450,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NE-9900",
+    "departureTime": 390,
+    "arrivalTime": 510,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-3435",
+    "departureTime": 450,
+    "arrivalTime": 570,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-1122",
+    "departureTime": 810,
+    "arrivalTime": 930,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NB-3344",
+    "departureTime": 930,
+    "arrivalTime": 1050,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NC-5567",
+    "departureTime": 1050,
+    "arrivalTime": 1170,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NA-1011",
+    "departureTime": 240,
+    "arrivalTime": 480,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-1213",
+    "departureTime": 360,
+    "arrivalTime": 600,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NC-1415",
+    "departureTime": 480,
+    "arrivalTime": 720,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "ND-1617",
+    "departureTime": 960,
+    "arrivalTime": 1200,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NE-1819",
+    "departureTime": 1080,
+    "arrivalTime": 1320,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-3637",
+    "departureTime": 1200,
+    "arrivalTime": 0,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "ND-1617",
+    "departureTime": 270,
+    "arrivalTime": 510,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NE-1819",
+    "departureTime": 390,
+    "arrivalTime": 630,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-3637",
+    "departureTime": 510,
+    "arrivalTime": 750,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NA-1011",
+    "departureTime": 990,
+    "arrivalTime": 1230,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-1213",
+    "departureTime": 1170,
+    "arrivalTime": 1410,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NC-1415",
+    "departureTime": 1290,
+    "arrivalTime": 90,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 300,
+    "arrivalTime": 480,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NB-2223",
+    "departureTime": 390,
+    "arrivalTime": 570,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-2425",
+    "departureTime": 480,
+    "arrivalTime": 660,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "ND-2627",
+    "departureTime": 900,
+    "arrivalTime": 1080,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NE-2829",
+    "departureTime": 1020,
+    "arrivalTime": 1200,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-3839",
+    "departureTime": 1140,
+    "arrivalTime": 1320,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 1260,
+    "arrivalTime": 0,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "ND-2627",
+    "departureTime": 360,
+    "arrivalTime": 540,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NE-2829",
+    "departureTime": 450,
+    "arrivalTime": 630,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-3839",
+    "departureTime": 540,
+    "arrivalTime": 720,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NA-2021",
+    "departureTime": 960,
+    "arrivalTime": 1140,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NB-2223",
+    "departureTime": 1080,
+    "arrivalTime": 1260,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-2425",
+    "departureTime": 1200,
+    "arrivalTime": 1380,
+    "date": "2025-10-02"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NA-3947",
+    "departureTime": 240,
+    "arrivalTime": 365,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NB-4821",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NC-5032",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "ND-1256",
+    "departureTime": 720,
+    "arrivalTime": 845,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NE-8790",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NF-3031",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "ND-1256",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NE-8790",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NF-3031",
+    "departureTime": 450,
+    "arrivalTime": 575,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NA-3947",
+    "departureTime": 870,
+    "arrivalTime": 995,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NB-4821",
+    "departureTime": 960,
+    "arrivalTime": 1085,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NC-5032",
+    "departureTime": 1080,
+    "arrivalTime": 1205,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NA-6677",
+    "departureTime": 270,
+    "arrivalTime": 395,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NB-2245",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NC-9988",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "ND-7733",
+    "departureTime": 750,
+    "arrivalTime": 875,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NE-5566",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NG-3233",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "ND-7733",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NE-5566",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NG-3233",
+    "departureTime": 420,
+    "arrivalTime": 545,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NA-6677",
+    "departureTime": 780,
+    "arrivalTime": 905,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NB-2245",
+    "departureTime": 930,
+    "arrivalTime": 1055,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NC-9988",
+    "departureTime": 1050,
+    "arrivalTime": 1175,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-1122",
+    "departureTime": 300,
+    "arrivalTime": 420,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NB-3344",
+    "departureTime": 360,
+    "arrivalTime": 480,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NC-5567",
+    "departureTime": 420,
+    "arrivalTime": 540,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "ND-7788",
+    "departureTime": 780,
+    "arrivalTime": 900,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NE-9900",
+    "departureTime": 900,
+    "arrivalTime": 1020,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-3435",
+    "departureTime": 1020,
+    "arrivalTime": 1140,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "ND-7788",
+    "departureTime": 330,
+    "arrivalTime": 450,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NE-9900",
+    "departureTime": 390,
+    "arrivalTime": 510,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-3435",
+    "departureTime": 450,
+    "arrivalTime": 570,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-1122",
+    "departureTime": 810,
+    "arrivalTime": 930,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NB-3344",
+    "departureTime": 930,
+    "arrivalTime": 1050,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NC-5567",
+    "departureTime": 1050,
+    "arrivalTime": 1170,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NA-1011",
+    "departureTime": 240,
+    "arrivalTime": 480,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-1213",
+    "departureTime": 360,
+    "arrivalTime": 600,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NC-1415",
+    "departureTime": 480,
+    "arrivalTime": 720,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "ND-1617",
+    "departureTime": 960,
+    "arrivalTime": 1200,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NE-1819",
+    "departureTime": 1080,
+    "arrivalTime": 1320,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-3637",
+    "departureTime": 1200,
+    "arrivalTime": 0,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "ND-1617",
+    "departureTime": 270,
+    "arrivalTime": 510,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NE-1819",
+    "departureTime": 390,
+    "arrivalTime": 630,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-3637",
+    "departureTime": 510,
+    "arrivalTime": 750,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NA-1011",
+    "departureTime": 990,
+    "arrivalTime": 1230,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-1213",
+    "departureTime": 1170,
+    "arrivalTime": 1410,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NC-1415",
+    "departureTime": 1290,
+    "arrivalTime": 90,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 300,
+    "arrivalTime": 480,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NB-2223",
+    "departureTime": 390,
+    "arrivalTime": 570,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-2425",
+    "departureTime": 480,
+    "arrivalTime": 660,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "ND-2627",
+    "departureTime": 900,
+    "arrivalTime": 1080,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NE-2829",
+    "departureTime": 1020,
+    "arrivalTime": 1200,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-3839",
+    "departureTime": 1140,
+    "arrivalTime": 1320,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 1260,
+    "arrivalTime": 0,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "ND-2627",
+    "departureTime": 360,
+    "arrivalTime": 540,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NE-2829",
+    "departureTime": 450,
+    "arrivalTime": 630,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-3839",
+    "departureTime": 540,
+    "arrivalTime": 720,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NA-2021",
+    "departureTime": 960,
+    "arrivalTime": 1140,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NB-2223",
+    "departureTime": 1080,
+    "arrivalTime": 1260,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-2425",
+    "departureTime": 1200,
+    "arrivalTime": 1380,
+    "date": "2025-10-03"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NA-3947",
+    "departureTime": 240,
+    "arrivalTime": 365,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NB-4821",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NC-5032",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "ND-1256",
+    "departureTime": 720,
+    "arrivalTime": 845,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NE-8790",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01A",
+    "busRegNo": "NF-3031",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "ND-1256",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NE-8790",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NF-3031",
+    "departureTime": 450,
+    "arrivalTime": 575,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NA-3947",
+    "departureTime": 870,
+    "arrivalTime": 995,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NB-4821",
+    "departureTime": 960,
+    "arrivalTime": 1085,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "01B",
+    "busRegNo": "NC-5032",
+    "departureTime": 1080,
+    "arrivalTime": 1205,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NA-6677",
+    "departureTime": 270,
+    "arrivalTime": 395,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NB-2245",
+    "departureTime": 330,
+    "arrivalTime": 455,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NC-9988",
+    "departureTime": 390,
+    "arrivalTime": 515,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "ND-7733",
+    "departureTime": 750,
+    "arrivalTime": 875,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NE-5566",
+    "departureTime": 900,
+    "arrivalTime": 1025,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02A",
+    "busRegNo": "NG-3233",
+    "departureTime": 1020,
+    "arrivalTime": 1145,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "ND-7733",
+    "departureTime": 300,
+    "arrivalTime": 425,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NE-5566",
+    "departureTime": 360,
+    "arrivalTime": 485,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NG-3233",
+    "departureTime": 420,
+    "arrivalTime": 545,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NA-6677",
+    "departureTime": 780,
+    "arrivalTime": 905,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NB-2245",
+    "departureTime": 930,
+    "arrivalTime": 1055,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "02B",
+    "busRegNo": "NC-9988",
+    "departureTime": 1050,
+    "arrivalTime": 1175,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-1122",
+    "departureTime": 300,
+    "arrivalTime": 420,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NB-3344",
+    "departureTime": 360,
+    "arrivalTime": 480,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NC-5567",
+    "departureTime": 420,
+    "arrivalTime": 540,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "ND-7788",
+    "departureTime": 780,
+    "arrivalTime": 900,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NE-9900",
+    "departureTime": 900,
+    "arrivalTime": 1020,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05A",
+    "busRegNo": "NA-3435",
+    "departureTime": 1020,
+    "arrivalTime": 1140,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "ND-7788",
+    "departureTime": 330,
+    "arrivalTime": 450,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NE-9900",
+    "departureTime": 390,
+    "arrivalTime": 510,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-3435",
+    "departureTime": 450,
+    "arrivalTime": 570,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NA-1122",
+    "departureTime": 810,
+    "arrivalTime": 930,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NB-3344",
+    "departureTime": 930,
+    "arrivalTime": 1050,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "05B",
+    "busRegNo": "NC-5567",
+    "departureTime": 1050,
+    "arrivalTime": 1170,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NA-1011",
+    "departureTime": 240,
+    "arrivalTime": 480,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-1213",
+    "departureTime": 360,
+    "arrivalTime": 600,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NC-1415",
+    "departureTime": 480,
+    "arrivalTime": 720,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "ND-1617",
+    "departureTime": 960,
+    "arrivalTime": 1200,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NE-1819",
+    "departureTime": 1080,
+    "arrivalTime": 1320,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22A",
+    "busRegNo": "NB-3637",
+    "departureTime": 1200,
+    "arrivalTime": 0,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "ND-1617",
+    "departureTime": 270,
+    "arrivalTime": 510,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NE-1819",
+    "departureTime": 390,
+    "arrivalTime": 630,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-3637",
+    "departureTime": 510,
+    "arrivalTime": 750,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NA-1011",
+    "departureTime": 990,
+    "arrivalTime": 1230,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NB-1213",
+    "departureTime": 1170,
+    "arrivalTime": 1410,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "22B",
+    "busRegNo": "NC-1415",
+    "departureTime": 1290,
+    "arrivalTime": 90,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 300,
+    "arrivalTime": 480,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NB-2223",
+    "departureTime": 390,
+    "arrivalTime": 570,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-2425",
+    "departureTime": 480,
+    "arrivalTime": 660,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "ND-2627",
+    "departureTime": 900,
+    "arrivalTime": 1080,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NE-2829",
+    "departureTime": 1020,
+    "arrivalTime": 1200,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NC-3839",
+    "departureTime": 1140,
+    "arrivalTime": 1320,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43A",
+    "busRegNo": "NA-2021",
+    "departureTime": 1260,
+    "arrivalTime": 0,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "ND-2627",
+    "departureTime": 360,
+    "arrivalTime": 540,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NE-2829",
+    "departureTime": 450,
+    "arrivalTime": 630,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-3839",
+    "departureTime": 540,
+    "arrivalTime": 720,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NA-2021",
+    "departureTime": 960,
+    "arrivalTime": 1140,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NB-2223",
+    "departureTime": 1080,
+    "arrivalTime": 1260,
+    "date": "2025-10-04"
+  },
+  {
+    "routeId": "43B",
+    "busRegNo": "NC-2425",
+    "departureTime": 1200,
+    "arrivalTime": 1380,
+    "date": "2025-10-04"
+  }
+]

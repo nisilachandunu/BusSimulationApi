@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Colombo",
+    "lat": 6.927079,
+    "lon": 79.861244
+  },
+  {
+    "name": "Nittambuwa",
+    "lat": 7.142364,
+    "lon": 80.103772
+  },
+  {
+    "name": "Kegalle",
+    "lat": 7.745521,
+    "lon": 80.606846
+  },
+  {
+    "name": "Kandy",
+    "lat": 7.291418,
+    "lon": 80.636696
+  },
+  {
+    "name": "Kalutara",
+    "lat": 6.585395,
+    "lon": 79.960739
+  },
+  {
+    "name": "Aluthgama",
+    "lat": 6.4345732,
+    "lon": 80.0003875
+  },
+  {
+    "name": "Ambalangoda",
+    "lat": 6.223056,
+    "lon": 80.054167
+  },
+  {
+    "name": "Divulapitiya",
+    "lat": 7.230314,
+    "lon": 80.016474
+  },
+  {
+    "name": "Narammala",
+    "lat": 7.432513,
+    "lon": 80.2154
+  },
+  {
+    "name": "Kurunegala",
+    "lat": 7.482222,
+    "lon": 80.352778
+  },
+  {
+    "name": "Mahiyanganaya",
+    "lat": 7.4075,
+    "lon": 81.0139
+  },
+  {
+    "name": "Padiyathalawa",
+    "lat": 7.4356,
+    "lon": 81.1389
+  },
+  {
+    "name": "Ampara",
+    "lat": 7.2906,
+    "lon": 81.7321
+  },
+  {
+    "name": "Matale",
+    "lat": 7.4611,
+    "lon": 80.6333
+  },
+  {
+    "name": "Dambulla",
+    "lat": 7.8611,
+    "lon": 80.6486
+  },
+  {
+    "name": "Anuradhapura",
+    "lat": 8.311,
+    "lon": 80.4037
+  }
+]

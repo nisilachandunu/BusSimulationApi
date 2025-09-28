@@ -1,0 +1,37 @@
+[
+  {
+    "code": "01",
+    "origin": "Colombo",
+    "destination": "Kandy",
+    "distanceKm": 116,
+    "stops": ["Colombo", "Nittambuwa", "Kegalle", "Kandy"]
+  },
+  {
+    "code": "02",
+    "origin": "Colombo",
+    "destination": "Ambalangoda",
+    "distanceKm": 85,
+    "stops": ["Colombo", "Kalutara","Ambalangoda"]
+  },
+  {
+    "code": "05",
+    "origin": "Colombo",
+    "destination": "Kurunegala",
+    "distanceKm": 102,
+    "stops": ["Colombo", "Divulapitiya", "Narammala", "Kurunegala"]
+  },
+  {
+    "code": "22",
+    "origin": "Kandy",
+    "destination": "Ampara",
+    "distanceKm": 197,
+    "stops": ["Kandy", "Mahiyanganaya", "Padiyathalawa", "Ampara"]
+  },
+  {
+    "code": "43",
+    "origin": "Kandy",
+    "destination": "Anuradhapura",
+    "distanceKm": 137,
+    "stops": ["Kandy", "Matale", "Dambulla", "Anuradhapura"]
+  }
+]

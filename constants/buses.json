@@ -1,0 +1,36 @@
+[
+  { "regNo": "NA-3947", "operator": "SLTB", "routeCode": "01", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NB-4821", "operator": "Private1", "routeCode": "01", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NC-5032", "operator": "Private2", "routeCode": "01", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "ND-1256", "operator": "SLTB", "routeCode": "01", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NE-8790", "operator": "Private1", "routeCode": "01", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NF-3031", "operator": "SLTB", "routeCode": "01", "location": { "lat": 7.2906, "lon": 80.6337 } },
+
+  { "regNo": "NA-6677", "operator": "SLTB", "routeCode": "02", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NB-2245", "operator": "Private1", "routeCode": "02", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NC-9988", "operator": "Private2", "routeCode": "02", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "ND-7733", "operator": "SLTB", "routeCode": "02", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NE-5566", "operator": "Private1", "routeCode": "02", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NG-3233", "operator": "Private1", "routeCode": "02", "location": { "lat": 7.2906, "lon": 80.6337 } },
+
+  { "regNo": "NA-1122", "operator": "SLTB", "routeCode": "05", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NB-3344", "operator": "Private1", "routeCode": "05", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NC-5567", "operator": "Private2", "routeCode": "05", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "ND-7788", "operator": "SLTB", "routeCode": "05", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NE-9900", "operator": "Private1", "routeCode": "05", "location": { "lat": 6.9271, "lon": 79.8612 } },
+  { "regNo": "NA-3435", "operator": "Private2", "routeCode": "05", "location": { "lat": 7.2906, "lon": 80.6337 } },
+
+  { "regNo": "NA-1011", "operator": "SLTB", "routeCode": "22", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NB-1213", "operator": "Private1", "routeCode": "22", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NC-1415", "operator": "Private2", "routeCode": "22", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "ND-1617", "operator": "SLTB", "routeCode": "22", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NE-1819", "operator": "Private1", "routeCode": "22", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NB-3637", "operator": "SLTB", "routeCode": "22", "location": { "lat": 7.2906, "lon": 80.6337 } },
+
+  { "regNo": "NA-2021", "operator": "SLTB", "routeCode": "43", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NB-2223", "operator": "Private1", "routeCode": "43", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NC-2425", "operator": "Private2", "routeCode": "43", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "ND-2627", "operator": "SLTB", "routeCode": "43", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NE-2829", "operator": "Private1", "routeCode": "43", "location": { "lat": 7.2906, "lon": 80.6337 } },
+  { "regNo": "NC-3839", "operator": "Private1", "routeCode": "43", "location": { "lat": 7.2906, "lon": 80.6337 } }
+]
