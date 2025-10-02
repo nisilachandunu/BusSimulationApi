@@ -2,6 +2,10 @@
 
 This repository contains the codebase for a RESTful Web API developed as part of the NB6007CEM - Web API Development coursework.
 
+## Student Information
+
+- **Student ID**:YR4COBSCCOMP232P-016
+
 ## Project Overview
 
 The API provides a secure, open-standards-based solution to monitor and manage bus locations, routes, and scheduled trips across Sri Lanka. It supports three key stakeholders:
