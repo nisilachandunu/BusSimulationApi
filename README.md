@@ -16,6 +16,15 @@ A comprehensive REST API for managing bus operations, routes, stops, and real-ti
 - **Auto-seeding**: Automatic data population on startup
 - **Location Simulation**: Realistic bus movement simulation
 
+## 🔐 Authentication & Authorization
+
+- JWT Bearer authentication
+- Roles: `admin`, `operator`, `commuter`
+- Public GETs are open; write operations require a token
+- Admin: manage routes, stops, delete entities, trip seeding
+- Operator: create/update buses and trips
+- Commuter: read-only
+
 ## 🏗️ Architecture
 
 ### Core Models
@@ -59,6 +68,12 @@ A comprehensive REST API for managing bus operations, routes, stops, and real-ti
 - `PUT /:id` - Update trip
 - `DELETE /:id` - Delete trip
 
+#### Auth (`/api/auth`)
+
+- `POST /register` - Register user (email, password, role, operatorId?)
+- `POST /login` - Login and obtain JWT
+- `GET /me` - Get current user (requires Authorization header)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -88,6 +103,8 @@ A comprehensive REST API for managing bus operations, routes, stops, and real-ti
    ```env
    MONGO_URI=mongodb://localhost:27017/bussim
    PORT=3000
+   JWT_SECRET=change_this_in_prod
+   JWT_EXPIRES_IN=7d
    ```
 
 4. **Start the application**
@@ -155,6 +172,33 @@ The application automatically:
 ```
 
 ## 🔧 API Usage Examples
+
+### Register
+
+```bash
+POST /api/auth/register
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "pass",
+  "role": "admin"
+}
+```
+
+### Login (get JWT)
+
+```bash
+POST /api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "pass"
+}
+```
+
+Use the token as: `Authorization: Bearer <token>`
 
 ### Get All Buses
 
@@ -285,4 +329,4 @@ For questions or issues, please open an issue in the repository.
 
 ---
 
-**BusSiM** - Simulating the future of public transportation! 🚌✨
+**BusSiM** - Simulating the future of public transportation!
