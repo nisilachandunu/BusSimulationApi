@@ -65,7 +65,7 @@ app.use("/api/trips", tripRoutes);
 
 // Sample route
 app.get("/", (req, res) => {
-  res.send("Server is running 🚀");
+  res.send("Server is running");
 });
 
 app.listen(PORT, () => {
