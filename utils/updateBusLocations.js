@@ -26,7 +26,9 @@ export async function updateBusLocations() {
       const trips = await Trip.find({
         busRegNo: bus.regNo,
         date: now.toISOString().slice(0, 10), // "YYYY-MM-DD"
-      }).sort({ departureTime: 1 }).lean();
+      })
+        .sort({ departureTime: 1 })
+        .lean();
 
       if (trips.length === 0) {
         // Bus is off-duty or no trips today → keep last known location
@@ -44,7 +46,10 @@ export async function updateBusLocations() {
           // Bus has not started this trip
           location = { ...location }; // stay at last known location or origin
           break;
-        } else if (minutesNow >= trip.departureTime && minutesNow <= trip.arrivalTime) {
+        } else if (
+          minutesNow >= trip.departureTime &&
+          minutesNow <= trip.arrivalTime
+        ) {
           // Bus is on this trip
           const stop = pickRandomStop(route);
           if (stop) {
@@ -59,14 +64,22 @@ export async function updateBusLocations() {
             // Place at destination of this trip
             if (route.stops.length > 0) {
               const lastStop = route.stops[route.stops.length - 1];
-              location = { lat: lastStop.lat, lon: lastStop.lon, updatedAt: now };
+              location = {
+                lat: lastStop.lat,
+                lon: lastStop.lon,
+                updatedAt: now,
+              };
             }
             break;
           } else if (!nextTrip) {
             // Last trip finished → stay at last destination
             if (route.stops.length > 0) {
               const lastStop = route.stops[route.stops.length - 1];
-              location = { lat: lastStop.lat, lon: lastStop.lon, updatedAt: now };
+              location = {
+                lat: lastStop.lat,
+                lon: lastStop.lon,
+                updatedAt: now,
+              };
             }
           }
         }
@@ -76,8 +89,8 @@ export async function updateBusLocations() {
       await Bus.updateOne({ _id: bus._id }, { $set: { location } });
     }
 
-    console.log("✅ Bus locations updated");
+    console.log("Bus locations updated");
   } catch (err) {
-    console.error("❌ Error updating bus locations:", err);
+    console.error("Error updating bus locations:", err);
   }
 }
