@@ -7,14 +7,15 @@ import {
   updateTrip,
   deleteTrip,
 } from "../controllers/trip.controller.js";
+import { requireAuth, requireRole } from "../middleware/auth.js";
 
 const router = express.Router();
 
-router.post("/generate-trips-json", generateTripsJson); // Generate trips JSON
-router.post("/seed-trips", seedTrips); // Seed trips
+router.post("/generate-trips-json", requireAuth, requireRole(["admin"]), generateTripsJson);
+router.post("/seed-trips", requireAuth, requireRole(["admin"]), seedTrips);
 router.get("/", getTrips); // query: route & date required
-router.post("/", createTrip); // create new trip
-router.put("/:id", updateTrip); // update trip by ID
-router.delete("/:id", deleteTrip); // delete trip by ID
+router.post("/", requireAuth, requireRole(["admin", "operator"]), createTrip);
+router.put("/:id", requireAuth, requireRole(["admin", "operator"]), updateTrip);
+router.delete("/:id", requireAuth, requireRole(["admin"]), deleteTrip);
 
 export default router;

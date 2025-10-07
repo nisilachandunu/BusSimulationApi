@@ -1,0 +1,196 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "BusSiM API",
+    "version": "1.0.0",
+    "description": "OpenAPI documentation for BusSiM REST API"
+  },
+  "servers": [
+    { "url": "http://localhost:3000", "description": "Local" }
+  ],
+  "paths": {
+    "/api/auth/register": {
+      "post": {
+        "summary": "Register user",
+        "tags": ["Auth"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["email", "password"],
+                "properties": {
+                  "email": { "type": "string", "format": "email" },
+                  "password": { "type": "string", "format": "password" },
+                  "role": { "type": "string", "enum": ["admin", "operator", "commuter"], "default": "commuter" },
+                  "operatorId": { "type": "string", "nullable": true }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Registered" },
+          "409": { "description": "Email already registered" }
+        }
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "summary": "Login and obtain JWT",
+        "tags": ["Auth"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["email", "password"],
+                "properties": {
+                  "email": { "type": "string", "format": "email" },
+                  "password": { "type": "string", "format": "password" }
+                }
+              }
+            }
+          }
+        },
+        "responses": { "200": { "description": "JWT issued" }, "401": { "description": "Invalid credentials" } }
+      }
+    },
+    "/api/auth/me": {
+      "get": {
+        "summary": "Get current user",
+        "tags": ["Auth"],
+        "security": [ { "BearerAuth": [] } ],
+        "responses": { "200": { "description": "Current user" }, "401": { "description": "Unauthorized" } }
+      }
+    },
+    "/": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": { "description": "Server healthy" }
+        }
+      }
+    },
+    "/api/buses": {
+      "get": {
+        "summary": "List buses",
+        "parameters": [
+          { "name": "route", "in": "query", "schema": { "type": "string" }, "required": false }
+        ],
+        "responses": { "200": { "description": "List of buses" } }
+      },
+      "post": {
+        "summary": "Create bus",
+        "security": [ { "BearerAuth": [] } ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/Bus" }
+            }
+          }
+        },
+        "responses": { "201": { "description": "Bus created" }, "400": { "description": "Validation error" } }
+      }
+    },
+    "/api/buses/{id}": {
+      "get": { "summary": "Get bus by ID", "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "responses": { "200": { "description": "Bus" }, "404": { "description": "Not found" } } },
+      "put": { "summary": "Update bus", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Bus" } } } }, "responses": { "200": { "description": "Updated" } } },
+      "delete": { "summary": "Delete bus", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "responses": { "200": { "description": "Deleted" }, "404": { "description": "Not found" } } }
+    },
+    "/api/routes": {
+      "get": { "summary": "List routes", "responses": { "200": { "description": "List" } } },
+      "post": { "summary": "Create route", "security": [ { "BearerAuth": [] } ], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Route" } } } }, "responses": { "201": { "description": "Created" } } }
+    },
+    "/api/routes/{id}": {
+      "get": { "summary": "Get route", "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "responses": { "200": { "description": "Route" }, "404": { "description": "Not found" } } },
+      "put": { "summary": "Update route", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Route" } } } }, "responses": { "200": { "description": "Updated" } } },
+      "delete": { "summary": "Delete route", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "responses": { "200": { "description": "Deleted" } } }
+    },
+    "/api/stops": {
+      "get": { "summary": "List stops", "responses": { "200": { "description": "List" } } },
+      "post": { "summary": "Create stop", "security": [ { "BearerAuth": [] } ], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Stop" } } } }, "responses": { "201": { "description": "Created" } } }
+    },
+    "/api/stops/{id}": {
+      "get": { "summary": "Get stop", "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "responses": { "200": { "description": "Stop" } } },
+      "put": { "summary": "Update stop", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Stop" } } } }, "responses": { "200": { "description": "Updated" } } },
+      "delete": { "summary": "Delete stop", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "responses": { "200": { "description": "Deleted" } } }
+    },
+    "/api/trips": {
+      "get": { "summary": "List trips", "responses": { "200": { "description": "List" } } },
+      "post": { "summary": "Create trip", "security": [ { "BearerAuth": [] } ], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Trip" } } } }, "responses": { "201": { "description": "Created" } } }
+    },
+    "/api/trips/{id}": {
+      "put": { "summary": "Update trip", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Trip" } } } }, "responses": { "200": { "description": "Updated" } } },
+      "delete": { "summary": "Delete trip", "security": [ { "BearerAuth": [] } ], "parameters": [ { "$ref": "#/components/parameters/IdParam" } ], "responses": { "200": { "description": "Deleted" } } }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
+    "parameters": {
+      "IdParam": { "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }
+    },
+    "schemas": {
+      "Location": {
+        "type": "object",
+        "required": ["lat", "lon"],
+        "properties": { "lat": { "type": "number" }, "lon": { "type": "number" }, "updatedAt": { "type": "string", "format": "date-time" } }
+      },
+      "Bus": {
+        "type": "object",
+        "required": ["regNo", "operator", "routeCode", "location"],
+        "properties": {
+          "regNo": { "type": "string", "example": "AB-1234" },
+          "operator": { "type": "string" },
+          "routeCode": { "type": "string", "example": "01" },
+          "status": { "type": "string", "enum": ["on-duty", "off-duty", "maintenance"] },
+          "location": { "$ref": "#/components/schemas/Location" }
+        }
+      },
+      "Route": {
+        "type": "object",
+        "required": ["_id", "origin", "destination", "distanceKm"],
+        "properties": {
+          "_id": { "type": "string", "example": "01" },
+          "origin": { "type": "string" },
+          "destination": { "type": "string" },
+          "distanceKm": { "type": "number" },
+          "stops": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "Stop": {
+        "type": "object",
+        "required": ["name", "lat", "lon"],
+        "properties": {
+          "name": { "type": "string" },
+          "lat": { "type": "number" },
+          "lon": { "type": "number" }
+        }
+      },
+      "Trip": {
+        "type": "object",
+        "required": ["routeId", "busRegNo", "departureTime", "arrivalTime", "date"],
+        "properties": {
+          "routeId": { "type": "string", "example": "01" },
+          "busRegNo": { "type": "string", "example": "AB-1234" },
+          "departureTime": { "type": "integer", "example": 540 },
+          "arrivalTime": { "type": "integer", "example": 660 },
+          "date": { "type": "string", "format": "date", "example": "2025-01-01" },
+          "status": { "type": "string", "enum": ["scheduled", "ongoing", "completed", "cancelled"] }
+        }
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,300 @@
+{
+  "info": {
+    "name": "BusSiM API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Postman collection to test BusSiM REST API endpoints"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000/api"
+    },
+    {
+      "key": "busId",
+      "value": ""
+    },
+    {
+      "key": "routeId",
+      "value": "01"
+    },
+    {
+      "key": "stopId",
+      "value": ""
+    },
+    {
+      "key": "tripId",
+      "value": ""
+    },
+    { "key": "jwt", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "POST /auth/register",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"admin@example.com\",\n  \"password\": \"pass\",\n  \"role\": \"admin\"\n}" },
+            "url": "{{baseUrl}}/auth/register"
+          }
+        },
+        {
+          "name": "POST /auth/login",
+          "event": [
+            {
+              "listen": "test",
+              "script": { "type": "text/javascript", "exec": ["const res = pm.response.json();","if (res && res.token) { pm.collectionVariables.set('jwt', res.token); }"] }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"admin@example.com\",\n  \"password\": \"pass\"\n}" },
+            "url": "{{baseUrl}}/auth/login"
+          }
+        },
+        {
+          "name": "GET /auth/me",
+          "request": { "method": "GET", "header": [ { "key": "Authorization", "value": "Bearer {{jwt}}" } ], "url": "{{baseUrl}}/auth/me" }
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "GET /",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/../",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "..",
+                "/"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Buses",
+      "item": [
+        {
+          "name": "GET /buses (all)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/buses",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "buses"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /buses?route=01",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/buses?route=01",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "buses"
+              ],
+              "query": [
+                { "key": "route", "value": "01" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /buses/:id",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/buses/{{busId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "buses",
+                "{{busId}}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /buses",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"regNo\": \"AB-1234\",\n  \"operator\": \"City Transport\",\n  \"routeCode\": \"01\",\n  \"status\": \"on-duty\",\n  \"location\": { \n    \"lat\": 6.9271,\n    \"lon\": 79.8612\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/buses",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "buses"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /buses/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"on-duty\",\n  \"location\": {\n    \"lat\": 6.9280,\n    \"lon\": 79.8620,\n    \"updatedAt\": \"2025-01-01T10:30:00Z\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/buses/{{busId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "buses",
+                "{{busId}}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /buses/:id",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/buses/{{busId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "buses",
+                "{{busId}}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Routes",
+      "item": [
+        {
+          "name": "GET /routes (all)",
+          "request": { "method": "GET", "url": "{{baseUrl}}/routes" }
+        },
+        {
+          "name": "GET /routes/:id",
+          "request": { "method": "GET", "url": "{{baseUrl}}/routes/{{routeId}}" }
+        },
+        {
+          "name": "POST /routes",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"_id\": \"01\",\n  \"origin\": \"Colombo\",\n  \"destination\": \"Kandy\",\n  \"distanceKm\": 116\n}"
+            },
+            "url": "{{baseUrl}}/routes"
+          }
+        },
+        {
+          "name": "PUT /routes/:id",
+          "request": {
+            "method": "PUT",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": { "mode": "raw", "raw": "{ \n  \"destination\": \"New Kandy\"\n}" },
+            "url": "{{baseUrl}}/routes/{{routeId}}"
+          }
+        },
+        {
+          "name": "DELETE /routes/:id",
+          "request": { "method": "DELETE", "url": "{{baseUrl}}/routes/{{routeId}}" }
+        }
+      ]
+    },
+    {
+      "name": "Stops",
+      "item": [
+        { "name": "GET /stops (all)", "request": { "method": "GET", "url": "{{baseUrl}}/stops" } },
+        { "name": "GET /stops/:id", "request": { "method": "GET", "url": "{{baseUrl}}/stops/{{stopId}}" } },
+        {
+          "name": "POST /stops",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Colombo\",\n  \"lat\": 6.9271,\n  \"lon\": 79.8612\n}"
+            },
+            "url": "{{baseUrl}}/stops"
+          }
+        },
+        {
+          "name": "PUT /stops/:id",
+          "request": {
+            "method": "PUT",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": { "mode": "raw", "raw": "{ \n  \"lat\": 6.9300\n}" },
+            "url": "{{baseUrl}}/stops/{{stopId}}"
+          }
+        },
+        { "name": "DELETE /stops/:id", "request": { "method": "DELETE", "url": "{{baseUrl}}/stops/{{stopId}}" } }
+      ]
+    },
+    {
+      "name": "Trips",
+      "item": [
+        { "name": "GET /trips (all)", "request": { "method": "GET", "url": "{{baseUrl}}/trips" } },
+        { "name": "GET /trips/:id", "request": { "method": "GET", "url": "{{baseUrl}}/trips/{{tripId}}" } },
+        {
+          "name": "POST /trips",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"routeId\": \"01\",\n  \"busRegNo\": \"AB-1234\",\n  \"departureTime\": 540,\n  \"arrivalTime\": 660,\n  \"date\": \"2025-01-01\",\n  \"status\": \"scheduled\"\n}"
+            },
+            "url": "{{baseUrl}}/trips"
+          }
+        },
+        {
+          "name": "PUT /trips/:id",
+          "request": {
+            "method": "PUT",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": { "mode": "raw", "raw": "{ \n  \"status\": \"ongoing\"\n}" },
+            "url": "{{baseUrl}}/trips/{{tripId}}"
+          }
+        },
+        { "name": "DELETE /trips/:id", "request": { "method": "DELETE", "url": "{{baseUrl}}/trips/{{tripId}}" } }
+      ]
+    }
+  ]
+}
+
+
+

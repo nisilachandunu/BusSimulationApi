@@ -56,6 +56,17 @@ export const getTrips = async (req, res) => {
   }
 };
 
+//GET/ trips/:id
+export const getTripById = async (req, res) => {
+  try {
+    const trip = await Trip.findById(req.params.id);
+    if (!trip) return req.status(404).json({ message: "Trip Not found" });
+    res.json(trip);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching trip", error });
+  }
+};
+
 // POST /trips
 export const createTrip = async (req, res) => {
   try {

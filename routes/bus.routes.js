@@ -6,13 +6,14 @@ import {
   updateBus,
   deleteBus,
 } from "../controllers/bus.controller.js";
+import { requireAuth, requireRole } from "../middleware/auth.js";
 
 const router = express.Router();
 
 router.get("/", getBuses); // get all buses
 router.get("/:id", getBusById); // get bus by ID
-router.post("/", createBus); // create new bus
-router.put("/:id", updateBus); // update bus by ID
-router.delete("/:id", deleteBus); // delete bus by ID
+router.post("/", requireAuth, requireRole(["admin", "operator"]), createBus);
+router.put("/:id", requireAuth, requireRole(["admin", "operator"]), updateBus);
+router.delete("/:id", requireAuth, requireRole(["admin"]), deleteBus);
 
 export default router;
